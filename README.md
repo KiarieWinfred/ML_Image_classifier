@@ -1,5 +1,4 @@
-# My Image classfier 
-# Image Classifier Project
+# My Image classfier Project
 
 This is a deep learning-powered **Image Classifier** designed to identify different flower species. The project uses a pre-trained neural network model to classify images of flowers into their respective categories with a high degree of accuracy. 
 

@@ -43,4 +43,11 @@ To run this project, you need the following:
 - Argparse
 
 
+## Examples of how to run
+```
+python train.py flowers --arch vgg16 --epochs 2 --gpu --save_dir ./checkpoints
+```
 
+```
+python predict.py flowers/test/1/image_06743.jpg ./checkpoints/checkpoint.pth --top_k 3 --category_names cat_to_name.json --gpu
+```
